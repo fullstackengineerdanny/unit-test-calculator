@@ -6,7 +6,7 @@ The constructor receives a starting number. Then, calculation methods may be cha
 
 ## Supported Operations
 
-addition, subtraction, multiplication, division, clear, equals
+add, subtract, multiply, divide, clear, equals
 
 ## Examples
 
