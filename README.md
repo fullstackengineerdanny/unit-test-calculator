@@ -10,8 +10,8 @@ addition, subtraction, multiplication, division, clear, equals
 
 ## Examples
 
-1 (new Calculator(5)).equals() // 5
+(new Calculator(5)).equals() // 5
 
-2 (new Calculator(5)).add(3).equals() // 8
+(new Calculator(5)).add(3).equals() // 8
 
-3 (new Calculator(5)).clear().add(3).equals() // 3
+(new Calculator(5)).clear().add(3).equals() // 3
