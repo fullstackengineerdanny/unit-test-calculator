@@ -1,0 +1,17 @@
+{
+  "name": "unit-test-calculator",
+  "version": "1.0.0",
+  "description": "The constructor receives a starting number. Then, calculation methods may be chained on the new instance. Finally, a value is returned when the `equals` method is executed. Only `clear` resets the register to 0.",
+  "main": "index.js",
+  "scripts":
+  {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies":
+  {
+    "jest": "^24.9.0"
+  }
+}
