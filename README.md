@@ -8,8 +8,10 @@ The constructor receives a starting number. Then, calculation methods may be cha
 
 addition, subtraction, multiplication, division, clear, equals
 
-## Example
+## Examples
 
-1: (new Calculator(5)).equals() // 5
-2: (new Calculator(5)).add(3).equals() // 8
-3: (new Calculator(5)).clear().add(3).equals() // 3
+1 (new Calculator(5)).equals() // 5
+
+2 (new Calculator(5)).add(3).equals() // 8
+
+3 (new Calculator(5)).clear().add(3).equals() // 3
