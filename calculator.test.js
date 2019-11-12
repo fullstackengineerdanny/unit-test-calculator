@@ -1,5 +1,8 @@
 const Calculator = require('./calculator')
 
+const realDescribe = describe
+describe = ((name, fn) => {realDescribe(name, () => {fn()})})
+
 describe(`calculator`, () => test(`Calculator objects have methods that return themselves for chaining`, () => expect((new Calculator(5)).clear() instanceof Calculator).toBeTruthy()))
 
 describe(`calculator`, () => test(`throws error when dividing by zero`, () => expect(() => (new Calculator(5)).divide(0)).toThrow(/Division by 0/)))
