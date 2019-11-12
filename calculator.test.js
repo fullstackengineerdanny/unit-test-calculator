@@ -21,7 +21,7 @@ describe(`calculator`, () => test(`has a getter on \`register\` called \`equals\
 
 describe(`calculator`, () => test(`\`equals()\` returns the current value, initial value is 5`, () => expect((new Calculator(5)).equals()).toBe(5)))
 
-describe(`calculator`, () => test(`\`clear()\` resets the initial value to zero`, () => expect((new Calculator(5)).clear().equals()).toBe(0)))
+describe(`calculator`, () => test(`\`clear()\` resets the value to zero`, () => expect((new Calculator(5)).clear().equals()).toBe(0)))
 
 describe(`calculator`, () => test(`\`add(10)\` adds ten to the initial value of five to equal 15`, () => expect((new Calculator(5)).add(10).equals()).toBe(15)))
 
