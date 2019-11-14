@@ -17,7 +17,7 @@ module.exports = class Calculator
 
 		for(let i in sequence)
 		{
-			if (sequence[i] !== '+' && s[i] !== '-' && sequence[i] !== '*' && sequence[i] !== '/' && sequence[i] !== ' ')
+			if (sequence[i] !== '+' && sequence[i] !== '-' && sequence[i] !== '*' && sequence[i] !== '/' && sequence[i] !== ' ')
 				num += sequence[i]
 			else if (num !== '')
 			{
