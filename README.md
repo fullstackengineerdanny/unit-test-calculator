@@ -20,4 +20,8 @@ rpn, add, subtract, multiply, divide, clear, equals
 
 (new Calculator(5)).clear().add(3).equals() // 3
 
+(new Calculator()).rpn() // 0
+
+(new Calculator()).rpn('1 2 +') // 3
+
 (new Calculator()).rpn('1 2 + 7 - 2 *') // -8
